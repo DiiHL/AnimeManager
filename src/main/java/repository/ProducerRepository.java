@@ -15,10 +15,6 @@ import java.util.Optional;
 @Log4j2
 public class ProducerRepository {
 
-    public static List<Producer> findByAll() {
-        return findByName("");
-    }
-
     public static List<Producer> findByName(String name) {
         log.info("Finding producer by name '{}'", name);
         List<Producer> producer = new ArrayList<>();

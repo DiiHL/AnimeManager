@@ -26,7 +26,7 @@ public class ProducerService {
     }
 
     private static void delete() {
-        ProducerRepository.findByAll();
+        ProducerRepository.findByName("").forEach(producer1 -> System.out.printf("[%d] - %s%n", producer1.getId(), producer1.getName()));
         System.out.println("Type one of the ids below to delete");
         int id = Integer.parseInt(sc1.nextLine());
         System.out.println("Are you sure? Y/N");
