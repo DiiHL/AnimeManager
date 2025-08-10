@@ -14,8 +14,6 @@ public class CrudTest01 {
             op = Integer.parseInt(sc1.nextLine());
             if (op == 0) break;
             ProducerService.buildMenu(op);
-
-
         }
     }
 
