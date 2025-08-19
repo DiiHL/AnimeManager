@@ -16,7 +16,8 @@ O AnimeManager é uma aplicação Java focada em gerenciamento de animes e produ
   
 ## 🛠️ Tecnologias Utilizadas
 - Java 17
-- MYsql
+- Docker
+- Mysql
 - Lombok
 - Log4j2
 - Maven
